@@ -1,0 +1,144 @@
+    body{
+        margin: 0;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+    .header {
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 50px;
+
+    }
+
+    .logo {
+        width: 140px;
+    }
+
+    .header-links a {
+        color: white;
+        padding: 5px 15px;
+        text-decoration: none;
+        border-radius: 15px;
+
+    }
+
+    .header-links a:hover {
+        background-color: #2C94E2;
+    }
+
+    .btn{
+        background-color: #2C94E2;
+        color: white;
+        padding: 5px 15px;
+        border-radius: 15px;
+        border: none;
+        margin: 0;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+
+    }
+
+    .btn:hover {
+        background-color: #57ABEB;
+    }
+    .landing-page{
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 50px;
+        color: white;
+        border-radius: 0 0 50px 50px;
+    } 
+    .landing-page-search input{
+         border-radius: 50px;
+         border: none;
+         outline: none;
+         height: 30px;
+         padding: 0 10px;
+    }
+    .landing-page-search button {
+        position: absolute;
+        left: 200px;
+        height: 30px;
+    }
+    
+    .landing-page-image-container img{
+        border-radius: 20px;
+        width: 350px;
+    }
+
+    .landing-page-left-section{
+        width: 750px;
+    }
+    .Popular-container{
+        padding: 25px 50px;
+    }
+
+    .Popular-container span{
+        color: #57ABEB;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    .Popular-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Popular-header h1{
+        margin-top: 0;
+
+    }
+
+    .Popular-Releases{
+        display: flex;
+        gap: 25px;
+        padding: 0 0 65px 65px;
+    }
+
+    .Releases{
+        width: 300px;
+        background-color: #EEEEEE;
+        border-radius: 20px;
+    }
+
+    .Releases .thumb{
+        border-radius: 20px 20px 0 0;
+    }
+
+    .Releases-info{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+        padding: 8px 25px;
+    }
+    .Releases-info img{
+        width: 40px;
+
+    }
+
+    .Releases-info img:hover{
+        background-color: #C4E0F6;
+        padding: 3px 0;
+        border-radius: 15px;
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+    }
+
+    .Releases{
+        position: relative;
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      .Releases:hover {
+        transform: translateY(-10px);
+      }
+      
